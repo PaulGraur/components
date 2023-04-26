@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './FriendList.module.css';
+import css from '../FriendList/FriendList.module.css';
 import { FriendListItem } from './FriendListItem.jsx';
 export const FriendList = ({ friends }) => {
   return (
@@ -11,7 +11,7 @@ export const FriendList = ({ friends }) => {
             name={friend.name}
             isOnline={friend.isOnline}
             key={friend.id}
-          ></FriendListItem>
+          />
         );
       })}
     </ul>
