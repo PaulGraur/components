@@ -24,7 +24,7 @@ export const App = () => {
 
       <FriendList friends={friends} />
 
-      <FriendListItem/>
+      <FriendListItem />
 
       <TransactionHistory items={transactions} />
     </div>

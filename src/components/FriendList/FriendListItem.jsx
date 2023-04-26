@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 import css from '../FriendList/FriendList.module.css';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
-  const onlineStatusClassName = isOnline 
-  ? css.friendList_green 
-  : css.friendList_red;
+  const onlineStatusClassName = isOnline
+    ? css.friendList_green
+    : css.friendList_red;
 
   return (
     <li className={css.friendList_item}>
