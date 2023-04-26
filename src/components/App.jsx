@@ -5,9 +5,9 @@ import { FriendListItem } from '../components/FriendList/FriendListItem';
 import { TransactionHistory } from '../components/TransactionHistory/TransactionHistory';
 
 import user from '../../src/data/user.json';
-import stat from '../data/data.json';
-import friends from '../data/friends.json';
-import transactions from '../data/transactions.json';
+import stat from '../../src/data/data.json';
+import friends from '../../src/data/friends.json';
+import transactions from '../../src/data/transactions.json';
 
 export const App = () => {
   return (
