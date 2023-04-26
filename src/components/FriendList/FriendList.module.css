@@ -1,53 +1,92 @@
-ul {
-  list-style: none;
-}
-
-.friend_list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-  margin: 0;
-  padding-bottom: 100px;
-  
-}
-
 .friendList_item {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 250px;
   padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 100%;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 15px;
 }
 
+  
 .friendList_avatar {
-  border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .friendList_name {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
 }
-
-.friendList_green,
+  
+.friendList_green {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+}
+  
 .friendList_red {
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
+  width: 10px;
+  height: 10px;
   margin-right: 10px;
+  border-radius: 50%;
+  background-color: #f44336;
 }
 
-.friendList_green {
-  background-color: green;
+
+/**/
+.friend_list {
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px
 }
 
-.friendList_red {
-  background-color: red;
+.friend_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.friend_avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-right: 15px;
+}
+
+.friend_name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+.friend_status {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: auto;
+  color: #888;
+}
+
+.friend_status_icon {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 5px;
+  border: 1px solid #fff;
 }
